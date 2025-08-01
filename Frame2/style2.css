@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(30, 129, 30);
+    display:flex;
+    overflow:hidden;
+    height:100vh;
+    flex-direction:column;
+}
+
+.header{
+     display: flex;
+    border-radius: 12px ;
+    justify-content: space-between;
+    border: 2px solid #fff;
+    padding: 5px;
+    color: white;
+    width: 800px;
+    height: 210px;
+    margin: 20px auto;
+
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+.game{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+.title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 10%;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items:center;
+    font-family: sans-serif;
+    text-align:left;
+    padding: 50px;
+
+}
+.score{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 40%;
+    gap: 20px;
+    align-items: center;
+}
+.score-box {
+  background-color: white;
+  color: black;
+  padding: 20px 20px;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.1;
+  text-align: center;
+  min-width: 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score-box .score{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.background_circle1{
+    left:343px;
+    top: 300px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.background_circle2{
+    left: 255px;
+    top: 220px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.background_circle3{
+    left: 368px;
+    top: 320px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.Result1{
+    left: 430px;
+    top: 300px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.Scissor{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 345px;
+    gap:450px;
+    left: 400px;
+   
+}
+.Paper{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 345px;
+    gap: 450px;
+    left: 860px;
+}
+.Result2{
+    left: 890px;
+    top: 305px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.ChoiceResult1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    top: 450px;
+    left: 665px;
+
+}
+.ChoiceResult2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 665px;
+    top: 490px;
+
+}
+.Rectangle_6{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left:670px;
+    top:530px;
+
+}
+.Play{
+    left:699px;
+    top:550px;
+    z-index:5;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.buttonOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 60px;
+    right:150px;
+}
+
+
+.button{
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 10px;
+}

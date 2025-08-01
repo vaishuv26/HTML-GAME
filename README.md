@@ -1,6 +1,6 @@
 # HTML-GAME
 
-I successfully developed an engaging game utilizing the powerful combination of HTML, CSS, and JavaScript.
+Developed an engaging game utilizing the powerful combination of HTML, CSS, and JavaScript.
 
 Key Features:
 

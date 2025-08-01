@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:green;
+    display:flex;
+    overflow:hidden;
+    height:100vh;
+    flex-direction:column;
+}
+
+.header{
+    display: flex;
+    border-radius: 12px ;
+    justify-content: space-between;
+   border: 2px solid #fff;
+    padding: 5px;
+    color: white;
+    width: 800px;
+    height: 210px;
+    margin: 20px auto;
+
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+.game{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 10%;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items:center;
+    font-family: sans-serif;
+    text-align:left;
+    padding: 50px;
+
+}
+.GamingRules{
+    width: 350px;
+    height: 420px;
+    z-index: 1000;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    right: 70px;
+    bottom: 60px;
+
+
+}
+.Rule{
+    padding: 40px;
+    top: 680px;
+    left: 1060px;
+    border-radius: 2em solid white;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+.score{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 40%;
+    gap: 20px;
+    align-items: center;
+}
+.score-box {
+  background-color: white;
+  color: black;
+  padding: 20px 20px;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.1;
+  text-align: center;
+  min-width: 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score-box .score{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.circlePic{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+
+}
+.rock{
+    top: 329px;
+    left: 477px;
+	position: absolute;
+    border: 15px solid #0074b6;
+    opacity:100%;
+	z-index: 100;
+}
+.scissor{
+    top: 329px;
+    left: 713px;
+	position: absolute;
+    border: 15px solid #bd00ff
+}
+.paper{
+    top: 535px;
+    left: 590px;;
+	position: absolute;
+    border: 15px solid #ffa943;
+
+}
+.line1{
+    top: 384px;
+    left: 581px;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.line2{
+    top: 460px;
+    left:705px;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    position: absolute;    
+}
+.line3{
+    top: 456px;
+    left: 547px;
+     color: #000000;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.buttonOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 60px;
+    right:150px;
+}
+.button{
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 10px;
+}

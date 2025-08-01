@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(30, 129, 30);
+}
+.Stars{
+    left: 440px;
+    top:120px;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Vector{
+    left: 170px;
+    top:100px;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.Hurray{
+    left: 7px;
+    bottom: 300px;
+    right:2px;
+    top: 300px;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Won{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 7px;
+    top:360px;
+    right:2px;
+}
+.Rectangle_6{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 120px;
+    top:430px;
+    right:400px;
+
+}
+.Play{
+    left: 120px;
+    top:445px;
+    right:400px;
+    z-index:5;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.buttonOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    right:30px;
+}
+.button{
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 10px;
+}

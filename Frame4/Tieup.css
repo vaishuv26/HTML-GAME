@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(30, 129, 30);
+    display:flex;
+    overflow:hidden;
+    height:100vh;
+    flex-direction:column;
+}
+
+.header{
+     display: flex;
+    border-radius: 12px ;
+    justify-content: space-between;
+    border: 2px solid #fff;
+    padding: 5px;
+    color: white;
+    width: 800px;
+    height: 210px;
+    margin: 20px auto;
+
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+.game{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+.title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 10%;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items:center;
+    font-family: sans-serif;
+    text-align:left;
+    padding: 50px;
+
+}
+.score{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 40%;
+    gap: 20px;
+    align-items: center;
+}
+.score-box {
+  background-color: white;
+  color: black;
+  padding: 20px 20px;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.1;
+  text-align: center;
+  min-width: 130px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score-box .score{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Result1{
+    left: 430px;
+    top: 310px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.Hand1{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 415px;
+    gap: 450px;
+    left: 370px;
+}
+.Hand2{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 415px;
+    gap: 450px;
+    left: 847px;
+}
+
+.Hand3{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        top: 547px;
+        gap: 450px;
+        left: 610px;
+}
+.Replaying{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        top: 560px;
+        gap: 450px;
+        left: 670px;
+        z-index: 3;
+}
+.Result2{
+    left: 890px;
+    top: 305px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.ChoiceResult1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 630px;
+    top: 458px;
+    bottom: 200px;
+
+}
+.buttonOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 60px;
+    right:150px;
+}
+.button{
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 10px;
+}
